@@ -10,7 +10,6 @@ Person.prototype.greet = function() {
 
 // Employee constructor function inheriting from Person
 function Employee(name, age, jobTitle) {
-  Person.call(this, name, age);
   this.jobTitle = jobTitle;
 }
 
